@@ -227,6 +227,29 @@ h1 {
   font-size: 1.06rem;
 }
 
+.app-card-secondary {
+  grid-template-columns: minmax(140px, 220px) 1fr;
+  gap: clamp(28px, 5vw, 60px);
+  margin-top: 26px;
+  padding: clamp(24px, 4vw, 42px);
+  background: rgba(255,255,255,.25);
+  box-shadow: none;
+}
+
+.app-card-secondary .app-icon { width: min(100%, 210px); }
+
+.app-card-secondary .app-copy h3 { margin-bottom: 3px; }
+
+.app-copy .app-subtitle {
+  color: var(--sage-dark);
+  font-weight: 700;
+}
+
+.status-secondary {
+  background: rgba(111,116,72,.13);
+  color: #505630;
+}
+
 .studio {
   display: grid;
   grid-template-columns: minmax(250px, .75fr) 1.25fr;
@@ -342,6 +365,7 @@ footer p { margin-bottom: 0; }
   }
 
   .app-card,
+  .app-card-secondary,
   .studio {
     grid-template-columns: 1fr;
   }
