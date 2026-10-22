@@ -135,6 +135,8 @@ h1 {
 
 .text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 
+.text-link-dark { color: var(--sage-dark); }
+
 .brand-art {
   position: relative;
 }
@@ -342,6 +344,72 @@ footer p { margin-bottom: 0; }
 }
 
 .page a { color: var(--gold); }
+
+.page address {
+  color: #D4D9E1;
+  font-style: normal;
+}
+
+.policy-page { max-width: 860px; }
+
+.policy-page h3 {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  color: var(--starlight);
+  font-size: 1.2rem;
+}
+
+.policy-page li + li { margin-top: 10px; }
+
+.policy-meta {
+  display: flex;
+  gap: 20px 46px;
+  flex-wrap: wrap;
+  margin: 32px 0 42px;
+}
+
+.policy-meta div { min-width: 180px; }
+
+.policy-meta dt {
+  color: var(--sage);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.policy-meta dd {
+  margin: 2px 0 0;
+  color: var(--starlight);
+}
+
+.policy-card {
+  margin-top: 34px;
+  padding: 28px;
+  border: 1px solid var(--line-dark);
+  border-radius: 18px;
+  background: rgba(255,255,255,.035);
+}
+
+.policy-card + .policy-card { margin-top: 18px; }
+
+.policy-card h2 {
+  margin: 5px 0 10px;
+  color: var(--starlight);
+}
+
+.policy-card p:last-child { margin-bottom: 0; }
+
+.policy-card-muted { opacity: .82; }
+
+.policy-status {
+  margin-bottom: 0;
+  color: var(--sage) !important;
+  font-size: .76rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
 
 .notice {
   margin: 30px 0;

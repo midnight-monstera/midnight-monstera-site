@@ -1,13 +1,14 @@
 # Midnight Monstera website
 
-Static GitHub Pages website for Midnight Monstera and its first app, **Rooted: Family Chores & Allowance**.
+Static GitHub Pages website for Midnight Monstera, LLC and its apps, **Knewly: Simple Flashcards** and **Rooted: Family Chores & Allowance**.
 
 ## Files
 
-- `index.html` — studio homepage and Rooted preview
+- `index.html` — studio homepage and app previews
 - `styles.css` — shared responsive styles
-- `support.html` — support placeholder
-- `privacy.html` — privacy-policy placeholder
+- `support.html` — public support contact
+- `privacy.html` — studio privacy-policy index
+- `knewly/privacy/index.html` — current Knewly privacy policy
 - `terms.html` — terms placeholder
 - `assets/midnight-monstera-horizontal.jpg` — supplied horizontal logo
 - `assets/midnight-monstera-vertical.jpg` — supplied vertical logo
@@ -40,14 +41,8 @@ For a new repository:
 
 ## Custom domain
 
-No `CNAME` file is included yet because the final Midnight Monstera domain has not been hard-coded into this package.
-
-When the domain is ready:
-1. Enter the custom domain in **Settings → Pages**.
-2. Configure the domain's DNS records for GitHub Pages.
-3. After DNS resolves, enable **Enforce HTTPS**.
-4. GitHub can create/update the repository's `CNAME` file automatically.
+The site is published at `https://midnightmonstera.com` using the tracked `CNAME` file and GitHub Pages.
 
 ## Before public launch
 
-The Privacy and Terms pages are deliberately placeholders. Replace them with policies based on Rooted's final data storage, account model, subscriptions/purchases, child-profile behavior, analytics, and third-party services before release.
+Knewly's privacy policy is published as a pre-release draft at `https://midnightmonstera.com/knewly/privacy/`. Keep the page synchronized with the app's implementation and remove its draft notice only after the release-readiness items in the notice are complete. The Terms page and Rooted privacy policy remain placeholders that must be finalized before the applicable public release.
