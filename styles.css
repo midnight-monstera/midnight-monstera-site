@@ -137,6 +137,37 @@ h1 {
 
 .text-link-dark { color: var(--sage-dark); }
 
+.app-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px 24px;
+  flex-wrap: wrap;
+  margin-top: 26px;
+}
+
+.app-actions .text-link { margin-top: 0; }
+
+.app-link {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: var(--midnight);
+  color: var(--starlight);
+  font-weight: 750;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(1,25,69,.14);
+}
+
+.app-link:hover,
+.app-link:focus-visible {
+  background: var(--midnight-soft);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .brand-art {
   position: relative;
 }
