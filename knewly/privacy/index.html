@@ -26,10 +26,9 @@
   <main class="page policy-page">
     <p class="eyebrow">Knewly</p>
     <h1>Privacy Policy</h1>
-    <div class="notice"><strong>Pre-release draft — October 22, 2026.</strong> This policy reflects Knewly's current implementation and will be updated as release preparations continue. Before Knewly's official release, Midnight Monstera, LLC will complete legal review, validate the production Android verification service, confirm the operational retention controls described below, and remove this notice.</div>
     <dl class="policy-meta">
-      <div><dt>Effective date</dt><dd>October 22, 2026</dd></div>
-      <div><dt>Last updated</dt><dd>October 22, 2026</dd></div>
+      <div><dt>Effective date</dt><dd>October 31, 2026</dd></div>
+      <div><dt>Last updated</dt><dd>October 31, 2026</dd></div>
     </dl>
 
     <p>Knewly is a local-first flashcard application offered by Midnight Monstera, LLC ("Midnight Monstera," "we," "us," or "our"). This Privacy Policy explains what information Knewly handles, where it is stored, when limited information leaves your device, and the choices available to you.</p>
@@ -84,6 +83,7 @@
         <li>protocol and operation information needed to validate the request.</li>
       </ul>
       <p>The service uses Google Play Integrity and Google Play Developer APIs to confirm that the request comes from a recognized Knewly installation and that the subscription is valid. Google may return app-recognition, licensing, and device-integrity results and authoritative subscription information. Google Play may also send real-time subscription and voided-purchase notifications through Google Cloud Pub/Sub.</p>
+      <p>Authorized Google Play reviewers can optionally enter a review code to request seven days of Premium access without a purchase or Knewly account. This sends the entered code, a random request identifier, protocol information, and a request-bound Play Integrity token to the same production entitlement service over HTTPS. The service compares a cryptographic digest and does not persist or log the entered code. Only its digest is configured as a service secret. The app stores only the signed reviewer entitlement and cache time, never the code. Reopening or resuming the app sends that signed entitlement with a fresh request identifier and Integrity token for validation; this does not renew its seven-day expiration. Rate limiting uses transient connection information. No study content or support correspondence is sent with these requests.</p>
       <p>Knewly's entitlement database may store:</p>
       <ul>
         <li>an encrypted purchase token and cryptographic token digests;</li>
@@ -144,7 +144,7 @@
       <ul>
         <li><strong>Google and Google Play</strong> process Android purchases, Play Integrity requests, subscription verification, and real-time developer notifications. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</li>
         <li><strong>Apple and the App Store</strong> process iOS purchases and StoreKit transactions. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
-        <li><strong>Cloudflare</strong> hosts Knewly's Android entitlement verification service and entitlement database and may process associated network, security, and subscription-verification records. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>.</li>
+        <li><strong>Cloudflare</strong> hosts Knewly's Android entitlement verification service, entitlement database, and Web application, and may process associated network, security, Web-request, and subscription-verification records. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>.</li>
         <li><strong>Google Cloud Pub/Sub</strong> delivers Google Play subscription lifecycle notifications to Knewly's entitlement service.</li>
         <li><strong>Hosting providers</strong> for the Web application may process ordinary web-server and security information needed to deliver Knewly, such as IP addresses and request metadata.</li>
         <li><strong>Destinations you select</strong> receive exports, backups, emails, or other information when you intentionally share or send them.</li>
