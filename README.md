@@ -45,4 +45,4 @@ The site is published at `https://midnightmonstera.com` using the tracked `CNAME
 
 ## Before public launch
 
-Knewly's privacy policy is published as a pre-release draft at `https://midnightmonstera.com/knewly/privacy/`. Keep the page synchronized with the app's implementation and remove its draft notice only after the release-readiness items in the notice are complete. The Terms page and Rooted privacy policy remain placeholders that must be finalized before the applicable public release.
+Knewly's legally approved Privacy Policy is published at `https://midnightmonstera.com/knewly/privacy/`. Keep the public page synchronized with the approved policy source before each release. The Terms page and Rooted privacy policy remain placeholders that must be finalized before the applicable public release.
