@@ -239,6 +239,7 @@ h1 {
 
 .status {
   display: inline-block;
+  max-width: 100%;
   margin-bottom: 18px;
   padding: 7px 13px;
   border-radius: 999px;
@@ -246,6 +247,7 @@ h1 {
   color: #4A3D18;
   font-size: .85rem;
   font-weight: 800;
+  line-height: 1.35;
 }
 
 .app-copy h3 {
@@ -501,6 +503,11 @@ footer p { margin-bottom: 0; }
   }
 
   .app-card { padding: 24px; }
+
+  .app-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 
   .studio { padding: 78px 0; }
 
