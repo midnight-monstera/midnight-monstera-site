@@ -9,6 +9,7 @@ Static GitHub Pages website for Midnight Monstera, LLC and its apps, **Knewly: S
 - `support.html` — public support contact
 - `privacy.html` — studio privacy-policy index
 - `knewly/privacy/index.html` — current Knewly privacy policy
+- `knewly/terms/index.html` — non-effective Knewly Terms draft for legal review
 - `terms.html` — terms placeholder
 - `assets/midnight-monstera-horizontal.jpg` — supplied horizontal logo
 - `assets/midnight-monstera-vertical.jpg` — supplied vertical logo
@@ -45,4 +46,4 @@ The site is published at `https://midnightmonstera.com` using the tracked `CNAME
 
 ## Before public launch
 
-Knewly's legally approved Privacy Policy is published at `https://midnightmonstera.com/knewly/privacy/`. Keep the public page synchronized with the approved policy source before each release. The Terms page and Rooted privacy policy remain placeholders that must be finalized before the applicable public release.
+Knewly's legally approved Privacy Policy is published at `https://midnightmonstera.com/knewly/privacy/`. Keep the public page synchronized with the approved policy source before each release. A clearly marked, non-effective Knewly Terms draft is published at `https://midnightmonstera.com/knewly/terms/` for legal review; keep it `noindex` and do not use it as a store Terms URL until counsel approves the final text and every draft marker is removed. The studio-wide Terms page and Rooted privacy policy remain placeholders that must be finalized before the applicable public release.
