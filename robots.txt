@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://midnightmonstera.com/sitemap.xml
