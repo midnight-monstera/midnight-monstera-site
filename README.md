@@ -11,6 +11,8 @@ Static GitHub Pages website for Midnight Monstera, LLC and its apps, **Knewly: S
 - `knewly/decks/index.html` — free starter-deck library (linked from the Knewly page)
 - `knewly/decks/<deck>/index.html` — one page per deck with import steps and the full card list
 - `knewly/decks/files/*.tsv` — downloadable decks in Knewly's TSV format (UTF-8, Front<TAB>Back, LF line endings, no header). Keep each page's card table and count in sync with its TSV, and add new deck pages to `sitemap.xml`.
+- `knewly/help/index.html` — Knewly Help Center hub (the planned in-app Settings → Help → Tutorials link)
+- `knewly/help/<tutorial>/index.html` — one page per tutorial with numbered, screenshot-led steps and HowTo JSON-LD. Screenshots live in `knewly/help/images/<tutorial>/` as 660 px-wide WebP files (iPhone 17 Pro Max captures at half size, highlights in #E8562A). Add new tutorials to the hub and `sitemap.xml`.
 - `knewly/privacy/index.html` — current Knewly privacy policy
 - `knewly/terms/index.html` — non-effective Knewly Terms draft for legal review
 - `terms.html` — terms placeholder
