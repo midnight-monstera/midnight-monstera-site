@@ -28,7 +28,7 @@ body {
   line-height: 1.6;
 }
 
-img { max-width: 100%; }
+img { max-width: 100%; height: auto; }
 
 a { color: inherit; }
 
@@ -1047,10 +1047,10 @@ footer p { margin-bottom: 0; }
 
 .tutorial-step {
   display: grid;
-  grid-template-columns: minmax(0, 300px) 1fr;
-  gap: clamp(24px, 5vw, 56px);
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 48px);
   align-items: center;
-  padding: 36px 0;
+  padding: 28px 0;
   border-top: 1px solid var(--line-light);
 }
 
@@ -1059,7 +1059,7 @@ footer p { margin-bottom: 0; }
   width: 100%;
   height: auto;
   border: 1px solid rgba(36, 48, 42, .14);
-  border-radius: 34px;
+  border-radius: 26px;
   background: #EEEEEE;
   box-shadow: 0 18px 44px rgba(1, 25, 69, .12);
 }
@@ -1104,11 +1104,11 @@ footer p { margin-bottom: 0; }
 @media (max-width: 650px) {
   .tutorial-step {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 16px;
   }
 
   .tutorial-step img {
-    width: min(100%, 300px);
+    width: min(55vw, 220px);
     margin: 0 auto;
   }
 }
