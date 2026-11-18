@@ -1159,3 +1159,9 @@ footer p { margin-bottom: 0; }
 @media (max-width: 650px) {
   .import-grid { grid-template-columns: 1fr; }
 }
+
+.card-reading {
+  color: var(--sage-dark);
+  font-size: .92rem;
+  font-weight: 600;
+}
